@@ -1,0 +1,13 @@
+{
+    "name"          : "translit-for-url.cyr",
+    "description"   : "URL safe transliteration for Russian words (cyrillic to latin)",
+    "author"        : "Alexander Prozorov <staltec@gmail.com>",
+    "url"           : "https://github.com/Staltec/translit-for-url.cyr",
+    "keywords"      : ["transliteration", "url", "russian", "cyrillic"],
+    "version"       : "0.0.1",
+    "main"          : "./lib/translit-for-url.cyr",
+    "engines"       : { "node": ">= 0.4.0" },
+    "devDependencies": {
+        "nodeunit": ">= 0.8.1"
+    }
+}
