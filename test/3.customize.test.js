@@ -3,9 +3,7 @@
 * This test should be run last!
 * */
 
-var util=require('util'),
-    assert=require('assert'),
-    transliteration = require('../lib/translit-for-url.cyr.js');
+var transliteration = require('../lib/translit-for-url.cyr.js');
 
 
 exports['Customization test']=function(test){

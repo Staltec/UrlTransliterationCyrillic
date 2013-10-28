@@ -1,6 +1,4 @@
-var util=require('util'),
-    assert=require('assert'),
-    transliteration = require('../lib/translit-for-url.cyr.js');
+var transliteration = require('../lib/translit-for-url.cyr.js');
 
 
 exports['Russian phrase test']=function(test){

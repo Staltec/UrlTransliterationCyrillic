@@ -1,6 +1,4 @@
-var util=require('util'),
-    assert=require('assert'),
-    transliteration = require('../lib/translit-for-url.cyr.js');
+var transliteration = require('../lib/translit-for-url.cyr.js');
 
 
 exports['A test']=function(test){
@@ -9,3 +7,12 @@ exports['A test']=function(test){
 };
 
 
+exports['Б test']=function(test){
+    test.equal(transliteration.transliterate('Бяка-бука'), 'byaka-buka');
+    test.done();
+};
+
+exports['В test']=function(test){
+    test.equal(transliteration.transliterate('Виват'), 'vivat');
+    test.done();
+};
