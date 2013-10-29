@@ -49,8 +49,13 @@ exports['Special characters test']=function(test){
 };
 
 
-exports['Special character &times; test']=function(test){
+exports['Special character × (&times;) test']=function(test){
     test.equal(transliteration.transliterate('Спецсимвол × должны стать x'), 'spetssimvol_x_doljny_stat_x');
+    test.done();
+};
+
+exports['Latin character test']=function(test){
+    test.equal(transliteration.transliterate('Русский - english'), 'russkiy-english');
     test.done();
 };
 
